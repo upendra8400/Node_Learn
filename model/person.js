@@ -25,5 +25,5 @@ const PersonSchema = new mongoose.Schema({
 })
 
 const Person = mongoose.model("Person", PersonSchema)
-
+// comment add for testing github purpose
 export default Person;
