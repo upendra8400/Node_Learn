@@ -1,11 +1,10 @@
 import express from "express";
 import Person from "../model/person.js"
-import { error } from "console";
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.send("Welcome to my hotel..... How i can help you?,we have list of menus")
-});
+// router.get('/', (req, res) => {
+//     res.send("Welcome to my hotel..... How i can help you?,we have list of menus")
+// });
 
 //==========================create person data=================
 router.post('/', async (req, res) => {

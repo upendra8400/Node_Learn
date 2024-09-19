@@ -2,9 +2,9 @@ import express from "express";
 import Menu from "../model/menu.js"
 const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.send("Welcome to the hotel menu")
-});
+// router.get('/', (req, res) => {
+//     res.send("Welcome to the hotel menu")
+// });
 
 //======================== create menu==========================
 router.post('/', async (req, res) => {
